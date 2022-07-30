@@ -1,0 +1,71 @@
+<html>
+<head>
+  <title>Space Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    canvas
+    {
+        margin-top: 65px;
+    }
+    #snap
+    {
+        margin-top: 10px;
+    }
+</style>
+<body background="stars.gif">
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+        <button type="button"class="navbar-toggle"data-toggle="collapse"data-target="#myNavbar">
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span> 
+            <span class="icon-bar"></span> 
+            </button>   
+            <a class="navbar-brand" href="#">Space Web App</a>
+            
+            
+            
+            </div>    
+        <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        <li><a href="#home">HOME</a></li>  
+        <li><a href="solar_system.html">SOLAR SYSTEM</a></li>    
+            <li><a href="satellites.html">SATELLITES</a></li>  
+            <li><a href="rockets.html">ROCKETS</a></li>  
+            <li><a href="activities.html">ACTIVITIES</a></li> 
+            <li><a href="latest_information.html">LATEST INFORMATION</a></li> 
+            <li><a href="photo.html">PHOTO BOOTH</a></li> 
+            </ul>
+        </div>
+            </nav>
+<center>
+    <b style="color:black;float: left;background-color: peachpuff;width: 100%;height: 100px;font-weight: bolder;">&nbsp;Select Filter for your Selfie!
+              
+        <img src="https://i.postimg.cc/dVZL07fW/space2.png" width="100px" height="100px" onclick="openimg1()">
+        <img src="https://i.postimg.cc/fRRttPDF/ASTRONAUT-BACK-TRANS.png" width="100px" height="100px" onclick="openimg2()">
+        <img src="https://i.postimg.cc/mgNL6Q1F/space3.png" width="100px" height="100px" onclick="openimg3()">
+        <img src="https://i.postimg.cc/d0NCSKJ8/astronaut1.png" width="100px" height="100px" onclick="openimg4()">
+        <img src="https://i.postimg.cc/SNChqD2K/astronaut2.png" width="100px" height="100px" onclick="openimg5()">
+        <img src="https://i.postimg.cc/VLm8fXjB/Rocket1.png" width="100px" height="100px" onclick="openimg6()">
+        <img src="https://i.postimg.cc/R0tNRDZn/rocket2.png" width="100px" height="100px" onclick="openimg7()">
+      </b><br><br>
+              <br>
+    <button onclick="take_snapshot()" class="btn btn-danger" id="snap">Take Snapshot</button>
+</center>
+<div class="copy_right_footer">
+    Developed by - Haarsh Doshi<b> (Podar International School Navsari | Class 7th A | Age 12 Years)</b> <br>
+    Two Supporting Members :
+    Nimisha Pattnaik <b>(Podar International School Navsari | Class 7th A | Age 12 Years)</b> || Veer Shethna <b>(Podar International School Navsari | Class 7th A | Age 12 Years)</b>
+
+<script src="photo.js"></script>
+</body>
+
+</html>
